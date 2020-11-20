@@ -24,6 +24,7 @@ else if(data.length === 1){
 else{
   error(attention)
 }
+
 })
 
   refs.input.value = ""

@@ -1,4 +1,30 @@
 body {
-  background-color: black;
-  color: wheat;
+margin: auto;
 }
+.title_html{
+margin-left:50px;
+}
+.header{
+  margin-left:30px;
+  text-align: left;
+}
+#inputCountry{
+  width: 230px;
+  height: 50px;
+  font-size: 20px;
+}
+.all_info{
+  display: flex;
+}
+.title{
+  margin-left:50px;
+  list-style: none;
+}
+.languages{
+  list-style: circle;
+  padding: 0;
+}
+::marker{
+  display: none;
+}
+

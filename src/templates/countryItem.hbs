@@ -1,10 +1,11 @@
 {{#each this}}
 <li class = "countrie">
   <h1 class = "title">{{name}}</h1>
+  <div class = "all_info">
   <div class = "info">
     <p class = "capital">Capital: <span>{{capital}}</span></p>
     <p class = "population">Population: <span>{{population}}</span></p>
-    <ul>Languages:
+    <ul class = "languages">Languages:
     {{#each languages}}
     <li>{{this.name}}</li>
     {{/each}}
@@ -12,6 +13,7 @@
   </div>
   <div class = "flag">
     <img src="{{flag}}" alt="{{name}}" width="250px">
+  </div>
   </div>
 </li>
 
